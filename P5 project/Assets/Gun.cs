@@ -29,7 +29,7 @@ public class Gun : MonoBehaviour {
        // muzzleFlash.Play();
 
         RaycastHit hit;
-        if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit, range))
+        if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit))
         {
             Debug.Log(hit.transform.name);
 
