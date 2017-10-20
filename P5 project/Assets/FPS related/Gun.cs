@@ -1,5 +1,4 @@
-﻿
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Gun : MonoBehaviour {
 
@@ -12,14 +11,20 @@ public class Gun : MonoBehaviour {
     public ParticleSystem muzzleFlash;
     public GameObject impactEffect;
 
+    public float fireRate = 10f;
+
+    public float nextTimeToFire = 0f; 
+
    
 
 	// Update is called once per frame
 	void Update () {
 		
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
             Shoot();
+
+            nextTimeToFire = Time.time + 1f/fireRate;
         }
 
 	}
@@ -44,8 +49,8 @@ public class Gun : MonoBehaviour {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);
             }
 
-           // GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-           // Destroy(impactGO, 1f);
+            GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+            Destroy(impactGO, 11f);
         }
 
 
