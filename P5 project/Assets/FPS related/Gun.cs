@@ -9,9 +9,10 @@ public class Gun : MonoBehaviour {
     public Camera cam;
 
     public ParticleSystem muzzleFlash;
-    public GameObject impactEffect;
+    public GameObject impactEffectEnemy;
+    public GameObject impactEffectTarget;
 
-    public float fireRate = 10f;
+    public float fireRate = 15f;
 
     public float nextTimeToFire = 0f; 
 
@@ -36,12 +37,18 @@ public class Gun : MonoBehaviour {
         RaycastHit hit;
         if(Physics.Raycast(cam.transform.position, cam.transform.forward, out hit))
         {
-            Debug.Log(hit.transform.name);
+            //Debug.Log(hit.transform.);
 
+
+            Target target = hit.transform.GetComponent<Target>();
             Enemy enemy = hit.transform.GetComponent<Enemy>();
             if(enemy != null)
             {
                 enemy.TakeDamage(damage);
+
+            } else if (target != null)
+            {
+                target.TakeDamage(damage);
             }
 
             if (hit.rigidbody != null)
@@ -49,8 +56,17 @@ public class Gun : MonoBehaviour {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);
             }
 
-            GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-            Destroy(impactGO, 11f);
+            if (enemy != null)
+            {
+                GameObject impactGO = Instantiate(impactEffectEnemy, hit.point, Quaternion.LookRotation(hit.normal));
+                Destroy(impactGO, 11f);
+            }
+            else if (target != null)
+            {
+                GameObject impactGO = Instantiate(impactEffectTarget, hit.point, Quaternion.LookRotation(hit.normal));
+                Destroy(impactGO, 11f);
+            }
+            
         }
 
 
