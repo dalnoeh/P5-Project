@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BloodScript : MonoBehaviour {
+public class Bloodscript : MonoBehaviour {
     public GameObject ParBloodsplat;
     public GameObject ParBloodspurt;
     

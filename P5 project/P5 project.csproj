@@ -84,10 +84,11 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\BloodScript.cs" />
+    <Compile Include="Assets\Bloodscript.cs" />
     <Compile Include="Assets\FPS related\Enemy.cs" />
     <Compile Include="Assets\FPS related\Gun.cs" />
     <Compile Include="Assets\FPS related\Target.cs" />
+    <Compile Include="Assets\ScrBulletimpactconcrete.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

@@ -387,7 +387,7 @@ MonoBehaviour:
     type: 2}
   impactEffectEnemy: {fileID: 1913891210428366, guid: de56f0be60a94d245aecfa497a4dc03a,
     type: 2}
-  impactEffectTarget: {fileID: 1521518667807298, guid: be69ed4a6a17fb44599e497862b09568,
+  impactEffectTarget: {fileID: 1169812579483150, guid: d187eec5f4e9c684fa5d5eb7e032dd6a,
     type: 2}
   fireRate: 15
   nextTimeToFire: 0
@@ -899,6 +899,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1656030390 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1842034716999330, guid: 501d62ace2022be47a05a7f8dd4caf6b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1903930441}
+--- !u!114 &1656030395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1656030390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddf4e1bd90974b4fba81f3c8ab666e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &1807933884
 GameObject:
   m_ObjectHideFlags: 0
@@ -909,6 +926,7 @@ GameObject:
   - component: {fileID: 1807933887}
   - component: {fileID: 1807933886}
   - component: {fileID: 1807933885}
+  - component: {fileID: 1807933888}
   m_Layer: 0
   m_Name: Terrain
   m_TagString: Untagged
@@ -970,6 +988,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1807933888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807933884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddf4e1bd90974b4fba81f3c8ab666e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1001 &1903930441
 Prefab:
   m_ObjectHideFlags: 0

@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 2792
+  controlID: 6269
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 2720
+  controlID: 6270
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -342,9 +342,9 @@ MonoBehaviour:
     height: 936
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: 16fcffff18fcffff00000000
+    m_SelectedIDs: ee380000f6380000
+    m_LastClickedID: 14582
+    m_ExpandedIDs: da0efcff18fcffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -363,7 +363,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
   m_ExpandedScenes:
-  - Main
+  - bloody
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -14.046536, y: 1.0230794, z: 8.054834}
+    m_Target: {x: 0.14212602, y: -6.6991014, z: 0.043946147}
     speed: 2
-    m_Value: {x: -14.046536, y: 1.0230794, z: 8.054834}
+    m_Value: {x: 0.14212602, y: -6.6991014, z: 0.043946147}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -424,13 +424,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.023005774, y: 0.73311234, z: -0.02489247, w: -0.67926246}
+    m_Target: {x: -0.038542915, y: 0.69455457, z: 0.71743405, w: 0.037374206}
     speed: 2
-    m_Value: {x: -0.023005774, y: 0.73311234, z: -0.02489247, w: -0.67926246}
+    m_Value: {x: -0.038542915, y: 0.69455457, z: 0.71743405, w: 0.037374206}
   m_Size:
-    m_Target: 21.734047
+    m_Target: 8.783073
     speed: 2
-    m_Value: 21.734047
+    m_Value: 8.783073
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -505,20 +505,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Effects/Smoke
+    - Assets/Effects/Bloody
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Effects/Smoke
+  - Assets/Effects/Bloody
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Google Drive\AAU\AAU_Semester05\Projectfuntimes\P5-Project\P5
     project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2e280000
-    m_LastClickedID: 10286
-    m_ExpandedIDs: 0000000074260000d026000012270000a2270000322800004028000000ca9a3bffffff7f
+    m_SelectedIDs: 7e270000
+    m_LastClickedID: 10110
+    m_ExpandedIDs: 0000000072260000d026000012270000a82700004628000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,7 +546,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000074260000d026000012270000a2270000322800004028000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000072260000d026000012270000a82700004628000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -574,7 +574,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: 
+    m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
