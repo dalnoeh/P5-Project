@@ -59,7 +59,7 @@ public class Gun : MonoBehaviour {
             if (enemy != null)
             {
                 GameObject impactGO = Instantiate(impactEffectEnemy, hit.point, Quaternion.LookRotation(hit.normal));
-                Destroy(impactGO, 11f);
+                Destroy(impactGO, 2f);
             }
             else if (target != null)
             {

@@ -379,15 +379,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4462273ca7e7d3d4cb078c1b797ba322, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
+  damage: 0
   range: 100000
   impactForce: 1000
   cam: {fileID: 678638054}
   muzzleFlash: {fileID: 198742983343375592, guid: 7beaf16d3d6342149a29ef704d246bb3,
     type: 2}
-  impactEffectEnemy: {fileID: 1382526324404658, guid: 590a8383b67bdb44d8dd227a68d1844d,
+  impactEffectEnemy: {fileID: 1913891210428366, guid: de56f0be60a94d245aecfa497a4dc03a,
     type: 2}
-  impactEffectTarget: {fileID: 1855858886882422, guid: 7beaf16d3d6342149a29ef704d246bb3,
+  impactEffectTarget: {fileID: 1521518667807298, guid: be69ed4a6a17fb44599e497862b09568,
     type: 2}
   fireRate: 15
   nextTimeToFire: 0
