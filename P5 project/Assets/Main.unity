@@ -108,6 +108,23 @@ NavMeshSettings:
     tileSize: 256
     accuratePlacement: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &189886610 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1001261162362674, guid: 501d62ace2022be47a05a7f8dd4caf6b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1903930441}
+--- !u!114 &189886615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 189886610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddf4e1bd90974b4fba81f3c8ab666e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1001 &241144243
 Prefab:
   m_ObjectHideFlags: 0
@@ -389,7 +406,7 @@ MonoBehaviour:
     type: 2}
   impactEffectTarget: {fileID: 1169812579483150, guid: d187eec5f4e9c684fa5d5eb7e032dd6a,
     type: 2}
-  fireRate: 15
+  fireRate: 2
   nextTimeToFire: 0
 --- !u!1 &730770623
 GameObject:
@@ -423,8 +440,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2, y: -10}
-  m_SizeDelta: {x: 7, y: 7}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 4, y: 4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &730770625
 MonoBehaviour:
@@ -655,6 +672,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b76dededf9d5d1d4c83b6f4fba8a672c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1160198930 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1138496072392110, guid: 501d62ace2022be47a05a7f8dd4caf6b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1903930441}
+--- !u!114 &1160198935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160198930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddf4e1bd90974b4fba81f3c8ab666e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &1182378792 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1316120524897572, guid: b76dededf9d5d1d4c83b6f4fba8a672c,
@@ -1042,6 +1076,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 501d62ace2022be47a05a7f8dd4caf6b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1939497496 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1725325439087296, guid: 501d62ace2022be47a05a7f8dd4caf6b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1903930441}
+--- !u!114 &1939497501
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1939497496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddf4e1bd90974b4fba81f3c8ab666e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &2022053268
 GameObject:
   m_ObjectHideFlags: 0
@@ -1150,6 +1201,23 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b76dededf9d5d1d4c83b6f4fba8a672c, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2079854054 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1225863727868868, guid: 501d62ace2022be47a05a7f8dd4caf6b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1903930441}
+--- !u!114 &2079854059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2079854054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ddf4e1bd90974b4fba81f3c8ab666e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
 --- !u!1 &2139312843 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1316120524897572, guid: b76dededf9d5d1d4c83b6f4fba8a672c,

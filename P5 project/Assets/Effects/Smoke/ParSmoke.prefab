@@ -147,8 +147,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startSpeed:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0
+      minMaxState: 3
+      scalar: 0.4
       minScalar: 0.1
       maxCurve:
         serializedVersion: 2
@@ -544,7 +544,7 @@ ParticleSystem:
     serializedVersion: 5
     enabled: 1
     type: 4
-    angle: 30
+    angle: 90
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
     radiusThickness: 1
@@ -758,10 +758,10 @@ ParticleSystem:
           outSlope: 0
           tangentMode: 0
         - serializedVersion: 2
-          time: 0.2219454
-          value: 0.6895751
-          inSlope: 1.4032663
-          outSlope: 1.4032663
+          time: 0.034207575
+          value: 0.29563653
+          inSlope: 2.6181056
+          outSlope: 2.6181056
           tangentMode: 0
         - serializedVersion: 2
           time: 0.52769107
@@ -3324,7 +3324,7 @@ ParticleSystemRenderer:
   m_GameObject: {fileID: 1521518667807298}
   m_Enabled: 1
   m_CastShadows: 0
-  m_ReceiveShadows: 0
+  m_ReceiveShadows: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
