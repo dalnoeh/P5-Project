@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 13149
+  controlID: 9
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,8 +129,8 @@ MonoBehaviour:
     y: 0
     width: 336
     height: 957
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 13126
+  controlID: 10
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,8 +230,8 @@ MonoBehaviour:
     y: 0
     width: 460
     height: 957
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -342,9 +342,9 @@ MonoBehaviour:
     height: 936
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 48010000
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: c456ecffc656ecffc856ecffca56ecffcc56ecffce56ecffd056ecffd656ecffd856ecffde56ecffe056ecffe256ecffe456ecffe656ecffe856ecff6657ecff7057ecfff045effff245effff445effff645effffa45effffe45efff0046efff0246efff0446efff0646efff7046efff7846efff7c46efff8246efff8a46efff9846efff6aa8f9ff6ca8f9ff6ea8f9ff70a8f9ff72a8f9ff78a8f9ff7aa8f9ff7ca8f9ff7ea8f9ff80a8f9ff82a8f9ff84a8f9ff86a8f9ff88a8f9ff8aa8f9ff8ca8f9ff02a9f9ff0ca9f9ff16a9f9ff4662fbffd281fbffd481fbff4a82fbff6082fbff6a33fcffc08dfcffc28dfcff388efcff428efcff508efcfff6f2fcffe492feff20b7ffff30b7ffff4ebcffff2ef1ffff4cf4ffff00000000
+    m_ExpandedIDs: ac78ffffae78fffff0cefffff2cefffff4cefffff6cefffff8cefffffacefffffcceffff00cfffff06cfffff0acfffff0ccfffff0ecfffff80cfffff84cfffff88cfffff92cfffff9ccfffffa0cfffff58f8ffff5cf8ffff64f8ffff68f8ffff6cf8ffff6ef8ffff7af8ffff84f8ffff88f8ffffaaf8ffffb0f8ffffb6f8ffffbcf8ffffc0f8ffff38f9ffff40f9ffff46f9ffff7af9ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.40662247, y: 1.019999, z: 9.550277}
+    m_Target: {x: 0.38952926, y: 1.2775831, z: 7.5050616}
     speed: 2
-    m_Value: {x: -0.40662247, y: 1.019999, z: 9.550277}
+    m_Value: {x: 0.38952926, y: 1.2775831, z: 7.5050616}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -424,9 +424,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.040758125, y: 0.91292495, z: -0.09431501, w: -0.39498296}
+    m_Target: {x: -0.15386495, y: 0.3363777, z: -0.05585581, w: -0.9273919}
     speed: 2
-    m_Value: {x: -0.040758125, y: 0.91292495, z: -0.09431501, w: -0.39498296}
+    m_Value: {x: -0.15386496, y: 0.33637774, z: -0.055855814, w: -0.92739195}
   m_Size:
     m_Target: 0.52340806
     speed: 2
@@ -505,20 +505,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Effects/Bloody
+    - Assets/EnemyModel/Dude/DudeHitboxes
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/Effects/Bloody
+  - Assets/EnemyModel/Dude/DudeHitboxes
   m_LastFoldersGridSize: 65
   m_LastProjectPath: D:\Google Drive\AAU\AAU_Semester05\Projectfuntimes\P5-Project\P5
     project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 27}
-    m_SelectedIDs: 9e270000
-    m_LastClickedID: 10142
-    m_ExpandedIDs: 000000009e2600000227000046270000d2270000da270000762800009c28000000ca9a3bffffff7f
+    m_SelectedIDs: e4270000
+    m_LastClickedID: 10212
+    m_ExpandedIDs: 0000000082260000fe26000044270000da270000e227000086280000b228000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -546,7 +546,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009e2600000227000046270000d2270000da270000762800009c28000000ca9a3bffffff7f
+    m_ExpandedIDs: 0000000082260000fe26000044270000da270000e227000086280000b2280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
