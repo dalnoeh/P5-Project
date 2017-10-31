@@ -150,18 +150,18 @@ QualitySettings:
     name: Ultra
     pixelLightCount: 4
     shadows: 2
-    shadowResolution: 2
+    shadowResolution: 3
     shadowProjection: 1
     shadowCascades: 4
-    shadowDistance: 150
+    shadowDistance: 100
     shadowNearPlaneOffset: 3
     shadowCascade2Split: 0.33333334
-    shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
+    shadowCascade4Split: {x: 0.018390715, y: 0.05057483, z: 0.112644}
     shadowmaskMode: 1
     blendWeights: 4
     textureQuality: 0
     anisotropicTextures: 2
-    antiAliasing: 2
+    antiAliasing: 0
     softParticles: 1
     softVegetation: 1
     realtimeReflectionProbes: 1
@@ -182,7 +182,7 @@ QualitySettings:
     PSM: 5
     PSP2: 2
     Samsung TV: 2
-    Standalone: 5
+    Standalone: 3
     Tizen: 2
     Web: 5
     WebGL: 3
