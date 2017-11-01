@@ -1937,7 +1937,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1907210460585568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8123, y: 0.83, z: 9.167}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 7.1996384, y: 7.1996346, z: 7.1996346}
   m_Children:
   - {fileID: 4715660208061484}
@@ -2763,6 +2763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114061953082261422
 MonoBehaviour:
@@ -2775,6 +2776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114140728724948698
 MonoBehaviour:
@@ -2787,6 +2789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114290918373545914
 MonoBehaviour:
@@ -2799,6 +2802,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114512290946185854
 MonoBehaviour:
@@ -2811,6 +2815,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114749809847831682
 MonoBehaviour:
@@ -2823,6 +2828,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114874835994544572
 MonoBehaviour:
@@ -2835,6 +2841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114883546704349062
 MonoBehaviour:
@@ -2847,6 +2854,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114885620715049170
 MonoBehaviour:
@@ -2859,6 +2867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!114 &114920035904986002
 MonoBehaviour:
@@ -2871,6 +2880,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e09d3c6badb860342a4340d42ea29bed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dude_death: {fileID: 0}
   health: 50
 --- !u!137 &137778157021231610
 SkinnedMeshRenderer:
