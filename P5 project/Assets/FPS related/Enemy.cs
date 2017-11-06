@@ -1,11 +1,12 @@
 ﻿
 using UnityEngine;
 
-public class Enemy : MonoBehaviour {
+public class Enemy : MonoBehaviour
+{
     public Transform dude_death;
     public float health = 50f;
 
-    public void TakeDamage (float amount)
+    public void TakeDamage(float amount)
     {
         health -= amount;
 
@@ -17,18 +18,17 @@ public class Enemy : MonoBehaviour {
 
     void Die()
     {
+        GameObject enemy = GameObject.Find(Gun.enemyid);
+        //var enemydie = GameObject.FindGameObjectsWithTag("GameEnemy");
 
-        var enemydie = GameObject.FindGameObjectsWithTag("GameEnemy");
-        foreach (var GameEnemy in enemydie)
-        {
-            float posx = GameEnemy.transform.position.x;
-            float posy = GameEnemy.transform.position.y;
-            float posz = GameEnemy.transform.position.z;
-            float rotx = GameEnemy.transform.rotation.x;
-            float roty = GameEnemy.transform.rotation.y;
-            float rotz = GameEnemy.transform.rotation.z;
-            Instantiate(dude_death, new Vector3(posx, posy, posz), Quaternion.Euler(rotx,roty,rotz ));
-            Destroy(GameEnemy);
-        }
+        float posx = enemy.transform.position.x;
+        float posy = enemy.transform.position.y;
+        float posz = enemy.transform.position.z;
+        float rotx = enemy.transform.rotation.x;
+        float roty = enemy.transform.rotation.y;
+        float rotz = enemy.transform.rotation.z;
+        Instantiate(dude_death, new Vector3(posx, posy, posz), Quaternion.Euler(rotx, roty, rotz));
+        Destroy(enemy);
+
     }
 }

@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 392}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -107,10 +107,10 @@ MonoBehaviour:
     y: 30
     width: 1592
     height: 957
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 681, y: 342}
+  m_MaxSize: {x: 12006, y: 8042}
   vertical: 0
-  controlID: 48
+  controlID: 118
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -129,8 +129,8 @@ MonoBehaviour:
     y: 0
     width: 336
     height: 957
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -156,10 +156,10 @@ MonoBehaviour:
     y: 0
     width: 796
     height: 957
-  m_MinSize: {x: 234, y: 492}
-  m_MaxSize: {x: 10004, y: 14042}
+  m_MinSize: {x: 204, y: 342}
+  m_MaxSize: {x: 4004, y: 8042}
   vertical: 1
-  controlID: 62
+  controlID: 46
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -204,14 +204,14 @@ MonoBehaviour:
     y: 638
     width: 796
     height: 319
-  m_MinSize: {x: 234, y: 271}
-  m_MaxSize: {x: 10004, y: 10021}
-  m_ActualView: {fileID: 15}
+  m_MinSize: {x: 104, y: 121}
+  m_MaxSize: {x: 4004, y: 4021}
+  m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
   - {fileID: 15}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -344,18 +344,18 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 82d3f9ff76f9ffff7cf9ffff84f9ffff88f9ffff8cf9ffff8ef9ffff90f9ffff94f9ffffc2f9ffffccf9ffffd0f9ffffd6f9ffffdcf9ffffe0f9ffff58faffff60faffff66faffff74faffff18fcffff1afcffff00000000
+    m_ExpandedIDs: 4efbffff52fbffffcefbffffd4fbfffff4fbfffff6fbffff1afcffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: DudeIdle
-      m_OriginalName: DudeIdle
+      m_Name: Dood
+      m_OriginalName: Dood
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -1418
+      m_UserData: -50712
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -399,9 +399,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.10822648, y: 1.8155919, z: 13.302828}
+    m_Target: {x: -4.0550175, y: 1.9676127, z: 11.908839}
     speed: 2
-    m_Value: {x: 0.10822648, y: 1.8155919, z: 13.302828}
+    m_Value: {x: -4.0550175, y: 1.9676127, z: 11.908839}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -424,9 +424,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.0035021803, y: -0.99630415, z: 0.048789956, w: -0.07060723}
+    m_Target: {x: -0.0015132288, y: 0.9911087, z: -0.13253509, w: -0.011650049}
     speed: 2
-    m_Value: {x: -0.0035021803, y: -0.99630415, z: 0.048789956, w: -0.07060723}
+    m_Value: {x: -0.0015132288, y: 0.9911087, z: -0.13253509, w: -0.011650049}
   m_Size:
     m_Target: 0.52340806
     speed: 2
@@ -463,10 +463,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 461
-    y: 750
-    width: 1075
-    height: 308
+    x: 426
+    y: 730
+    width: 792
+    height: 298
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -505,19 +505,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/EnemyModel/Dude/DudeHitboxes
+    - Assets/FPS related
   m_ViewMode: 1
   m_StartGridSize: 65
   m_LastFolders:
-  - Assets/EnemyModel/Dude/DudeHitboxes
+  - Assets/FPS related
   m_LastFoldersGridSize: 65
   m_LastProjectPath: D:\Google Drive\AAU\AAU_Semester05\Projectfuntimes\P5-Project\P5
     project
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e0270000
-    m_LastClickedID: 10208
+    m_SelectedIDs: 40270000
+    m_LastClickedID: 10048
     m_ExpandedIDs: 00000000722600003e270000de27000084280000b028000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000072260000f62600003e270000d6270000de27000084280000b0280000
+    m_ExpandedIDs: 00000000722600003e270000de27000084280000b0280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
