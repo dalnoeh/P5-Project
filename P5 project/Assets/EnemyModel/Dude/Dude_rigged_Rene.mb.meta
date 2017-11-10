@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1f13bdb309a755c4f90e56a0ff829c27
-timeCreated: 1509368494
+guid: cf3c5cabd3a089543900a3ff4e3fd684
+timeCreated: 1510303442
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -318,6 +318,7 @@ ModelImporter:
     400308: Character1_Spine2
     400310: //RootNode
     4300000: Body2
+    7400000: Take 001
     9500000: //RootNode
     13700000: Body2
   materials:
