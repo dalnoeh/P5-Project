@@ -14,7 +14,9 @@ public class Gun : MonoBehaviour {
 
     public float fireRate = 15f;
 
-    public float nextTimeToFire = 0f; 
+    public float nextTimeToFire = 0f;
+
+    public static string enemyid;
 
    
 
@@ -39,7 +41,8 @@ public class Gun : MonoBehaviour {
         {
             //Debug.Log(hit.transform.);
 
-
+            enemyid = hit.transform.root.name;
+            print(enemyid + " " + hit.transform.root.name);
             Target target = hit.transform.GetComponent<Target>();
             Enemy enemy = hit.transform.GetComponent<Enemy>();
             if(enemy != null)
